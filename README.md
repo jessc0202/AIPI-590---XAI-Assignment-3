@@ -38,7 +38,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn scipy
-
+```
 
 ### Methodology
 1. Data Preprocessing
@@ -74,6 +74,9 @@ Binary classification handling is problematic
 Solution: Implemented ALE from scratch following the algorithm:
 
 Sort data by feature values
+
+The above markdown's format was generated using Claude 4 Sonnet on 9/29/24 at 8:13a.m., all content written by me.
+
 Create bins of similar feature values
 Compute local differences within bins
 Accumulate effects
